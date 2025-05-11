@@ -5,10 +5,10 @@ import { Flowers } from '../../assets/images'
 
 export function EvelopedCard() {
   const [isOpen, setIsOpen] = useState(false)
-    useEffect(() => setIsOpen(true), [])
+  useEffect(() => setIsOpen(true), [])
 
   return (
-    <div className='flex flex-col gap-8 items-center justify-center min-h-screen z-50'>
+    <div>
       <div
         className='relative w-[340px] h-48 shadow-lg'
         onClick={() => setIsOpen(true)}
